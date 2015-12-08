@@ -1,0 +1,29 @@
+ion-content {
+    margin-bottom: 50px !important;
+}
+
+.no-border {
+	border: none;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.current-user {
+	float: left;
+    clear: both;
+}
+
+.not-current-user {
+	float: right;
+	clear: both;
+}
+
+.current-user .details {
+	background-color: #72CBFF;
+}
+
+.not-current-user .details {
+    background-color: #DCDCDC;
+}

@@ -1,0 +1,14 @@
+<ion-view title="Rooms" ng-controller="HomeController as home_ctrl">
+ 	<header class="bar bar-header bar-positive">
+ 		<h1 class="title">Rooms</h1>
+ 	</header>
+ 	
+  <ion-content class="has-header padding">
+	<div class="card" ng-repeat="room in home_ctrl.rooms">
+	  <div class="item item-text-wrap text-center" ng-click="enterRoom(room)">
+	    <strong>{{room}}</strong>
+	  </div>
+	</div>
+  </ion-content>
+
+</ion-view>
